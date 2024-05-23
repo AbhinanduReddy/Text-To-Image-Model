@@ -33,4 +33,4 @@ class ALIGNModel(nn.Module):
         logits = (text_features @ image_features.T) / self.temperature
         return logits
 
-# Implement the training loop.
+
